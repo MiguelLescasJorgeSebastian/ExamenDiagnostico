@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+    <!-- estos son los estilos externos 
+    <link rel="stylesheet" href="/styles/styles.css"> -->
+    <style>
+        .pagina{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: #000;
+        }
+        .contenedor-principal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50vh;
+            height: 70vh;
+            box-shadow: 15px 15px 5px rgba(243, 243, 243, 0.2);
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            padding: 25px;
+            background-image: url("./img/v904-nunny-012.jpg");
+                background-size: cover;
+                background-position: center;
+        }
+            
+    
+        .contenedor-texto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenedor-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 150px;
+        }
+        .nombre {
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body class="pagina">
+    <div class="contenedor-principal" >
+        <div class="contenedor-img" >
+            <img src="./img/IMG_0653.JPG" alt="logo" height="80px">
+        </div>
+        <div class="contenedor-texto">
+            <p class="texto" style="text-align: justify; font-size: 20px;">
+                "Hola soy <b class="nombre">Sebastian</b>, estudio ingeniera en sistemas computacionales, me gusta la programación y el diseño web, me gustaría trabajar en una empresa donde pueda desarrollarme profesionalmente y aportar mis conocimientos, así como aprender de los demás."
+            </p>
+        </div>
+    </div>
+    <script src="./js/js.js"></script>
+</body>
+</html>
